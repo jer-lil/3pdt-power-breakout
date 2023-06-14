@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jeremiah\KiCad\6.0\projects\3PDT_Regulator\3PDT_Regulator\3PDT_Regulator.kicad_sch</source>
+    <date>11/14/2022 9:54:14 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>3PDT_Regulator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>124d3f2f-c54c-4761-9341-30f5679b8c0d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c95a52a1-25dd-4ea1-bb9e-385779d5afab</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4d77334-72ab-42c8-8a79-6eff4084c6b3</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c736ebf-b649-4052-9ff9-cecd11f22757</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13453789-b356-4800-830a-993bd4150594</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b731d8dd-2129-428d-8162-148ca10e6e92</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_PTH</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="BlackBox" part="LED_PTH" description="Light emitting diode, through hole"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>470fa8ee-769c-4a26-b81d-6d78f31a611c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PMEG4010EJ</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf</datasheet>
+      <libsource lib="Diode" part="PMEG4010EJ" description="40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb6b9856-b130-410f-95ca-bcce5afa3216</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb864c7-f27e-4d3a-8355-96de2c6528b5</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67ed8e57-c41d-47d9-9984-fb2087290114</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>9V_IN</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_4" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5844ff6b-3368-496d-8921-85d5d30a85f8</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>IN</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_5" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1326db8-1094-48ea-835a-d17cc358847a</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>SEND</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_6" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2dd0532-20b7-47ce-bf13-9f622f88f304</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>RETURN</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_2" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2790dda5-d23f-4761-9ece-6e63b2415692</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>OUT</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_3" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2877bd8e-766b-4253-9144-90e714ca7dcf</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>VOUT_NEG</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_1" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aab871c3-467e-40ad-80a0-2ac8cd064783</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>VOUT_POS</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="BlackBox" part="WirePad_22AWG" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec3ae02a-3453-4a7c-aaa4-65204ddb596a</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>GND</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_4" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eee7a1d9-88ed-426a-9dfe-357f012816f0</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>GND</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_4" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c4c4e5f-8828-4bfc-ad82-32aada36d660</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>GND</value>
+      <footprint>BlackBox:WirePad_22AWG</footprint>
+      <libsource lib="" part="WirePad_22AWG_4" description="SolderPad, for 22AWG wire"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8238de2-8e7d-4ef5-ab2d-849cb5dff1f4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84015945-f247-4a4e-af5f-60ca22c1fe84</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ed44c85-d9a3-4c65-8703-8d312984a6e3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>8.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec2bce94-a700-40e4-9377-9c89ca69e580</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>380321f0-aa7f-49c9-b528-83c6f735c505</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ce3806a-a909-43e3-a7ed-c95f00c790ce</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>BlackBox:Potentiometer_Bourns_3386F_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2a6c6f2-73b8-46ac-90d5-a9c9f3077f90</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>BlackBox:Potentiometer_Bourns_3386F_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>678b2096-ab9a-4ca3-9ec6-a635bb2525a6</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_3PDT</value>
+      <footprint>BlackBox:SW_STOMP_3PDT</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/13/SF17_SF12030F-1155740.pdf</datasheet>
+      <libsource lib="BlackBox" part="SW_3PDT" description="Switch, 3 pole double throw, separate symbols"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65664206-ca57-47b1-9a71-1326ad356a3c 1f51448d-f610-432d-b59a-9aab799d9d99 1dc91d24-a023-4105-a08f-bfc6676ad1f8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TC7662Bx0A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf</datasheet>
+      <libsource lib="Converter_DCDC" part="TC7662Bx0A" description="Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dfc02c1-106a-4de4-949c-fd838be29a3b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP2204K-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2204.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP2204K-ADJ" description="150mA low dropout adjustable linear regulator, wide input voltage range, SOT-23-5 package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4fae502-a12d-4ca9-8679-a9256a7e12f3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LT1964-SD</value>
+      <footprint>Package_TO_SOT_SMD:TSOT-23-5</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LT1964-SD" description="MICROPOWER 200mA Low Noise LDO negative regulator, adjustable output, TSOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="3PDT_Regulator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93fc99b4-8dc8-47e3-aca1-367444d4befb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="WirePad_22AWG_1">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_1</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="WirePad_22AWG_2">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_2</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="WirePad_22AWG_3">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_3</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="WirePad_22AWG_4">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_4</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="WirePad_22AWG_5">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_5</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="WirePad_22AWG_6">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG_6</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BlackBox" part="LED_PTH">
+      <description>Light emitting diode, through hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_PTH</field>
+        <field name="Footprint">LED_THT:LED_D5.0mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BlackBox" part="SW_3PDT">
+      <description>Switch, 3 pole double throw, separate symbols</description>
+      <docs>https://www.mouser.com/datasheet/2/13/SF17_SF12030F-1155740.pdf</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_3PDT</field>
+        <field name="Footprint">BlackBox:SW_STOMP_3PDT</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/13/SF17_SF12030F-1155740.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+        <pin num="7" name="A" type="passive"/>
+        <pin num="8" name="B" type="passive"/>
+        <pin num="9" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BlackBox" part="WirePad_22AWG">
+      <description>SolderPad, for 22AWG wire</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">WirePad_22AWG</field>
+        <field name="Footprint">BlackBox:WirePad_22AWG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_DCDC" part="TC7662Bx0A">
+      <description>Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC7662Bx0A</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="input"/>
+        <pin num="2" name="CAP+" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CAP-" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="passive"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="PMEG4010EJ">
+      <description>40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG4010EJ</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323F</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2204K-ADJ">
+      <description>150mA low dropout adjustable linear regulator, wide input voltage range, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2204.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LT1964-SD">
+      <description>MICROPOWER 200mA Low Noise LDO negative regulator, adjustable output, TSOT-23-5</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf</docs>
+      <footprints>
+        <fp>TSOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1964-SD</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-5</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/1964fb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BlackBox">
+      <uri>C:\Users\jeremiah\KiCad\6.0\symbols/BlackBox.kicad_sym</uri>
+    </library>
+    <library logical="Converter_DCDC">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Converter_DCDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9V">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BOOST" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADJ_NEG">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="3" name="/ADJ_POS">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="4" name="/BYP">
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="7" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="/IN">
+      <node ref="P2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="8" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="/OUT">
+      <node ref="P5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="/RETURN">
+      <node ref="P4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="/SEND">
+      <node ref="P3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="9" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="/SW_LED">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="10" name="/VOUT_NEG">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="11" name="/VOUT_POS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="P7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="12" name="/V_DBL">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="13" name="/V_NEG">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="~{SHDN}" pintype="input"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="P10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CAP+" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="CAP-" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(SW1-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="LV" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="OSC" pintype="passive"/>
+    </net>
+  </nets>
+</export>
